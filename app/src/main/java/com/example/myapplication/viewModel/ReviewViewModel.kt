@@ -1,4 +1,4 @@
-package com.example.reviewresilience.viewmodel
+package com.example.myapplication.viewmodel
 
 import android.app.Application
 import androidx.compose.runtime.getValue
@@ -7,7 +7,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
-import com.example.reviewresilience.data.DraftRepository
+import com.example.myapplication.data.DraftRepository
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
