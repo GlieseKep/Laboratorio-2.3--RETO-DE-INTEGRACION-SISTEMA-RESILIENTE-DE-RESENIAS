@@ -253,16 +253,6 @@ fun ReviewScreen(
             Spacer(
                 modifier = Modifier.height(24.dp)
             )
-
-            // Información sobre persistencia
-            Text(
-                text = "Tu calificación se conserva al rotar la pantalla. " +
-                        "El comentario se restaura ante cambios de configuración " +
-                        "y recuperación del proceso. Guarda el borrador para " +
-                        "conservarlo después de cerrar la aplicación.",
-
-                style = MaterialTheme.typography.bodySmall
-            )
         }
     }
 }
